@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+   <include layout="@layout/layout_toolbar"/>
+<FrameLayout
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"/>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/MainButtonStyle"
+            android:drawableLeft="@drawable/home2"
+            android:text="@string/main_botton_1"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_seting"
+            style="@style/MainButtonStyle"
+            android:drawableLeft="@drawable/setting"
+            android:text="@string/main_botton_2" />
+
+        <RadioButton
+            android:id="@+id/rb_help"
+            style="@style/MainButtonStyle"
+            android:drawableLeft="@drawable/ic_two"
+            android:text="@string/main_botton_3"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_update"
+            style="@style/MainButtonStyle"
+            android:drawableLeft="@drawable/ic_two"
+            android:text="@string/main_botton_4" />
+    </RadioGroup>
+</LinearLayout>

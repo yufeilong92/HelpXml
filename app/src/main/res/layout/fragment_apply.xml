@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_qian"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_16">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="申请费计算"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_14" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_8" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/di_case_bg"
+        android:dividerPadding="@dimen/margin_1"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_32"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/tv_Case_Type"
+                android:textSize="@dimen/font_12" />
+
+            <TextView
+                android:id="@+id/tv_Case_Apply"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@color/mdtp_white"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/font_12" />
+        </LinearLayout>
+
+<!--
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/line_Element_View"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_32"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textSize="@dimen/font_12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/tv_Case_type" />
+
+            <TextView
+                android:textSize="@dimen/font_12"
+                android:id="@+id/tv_element_Apply"
+                android:layout_width="0dp"
+                android:gravity="center_vertical"
+                android:background="@color/mdtp_white"
+                android:layout_height="match_parent"
+                android:layout_weight="3" />
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/line_Pay_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_32"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/tv_pay_type"
+                android:textSize="@dimen/font_12" />
+
+            <EditText
+                android:id="@+id/et_Pay_Apply"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@color/mdtp_white"
+                android:maxLength="10"
+                android:textSize="@dimen/font_12" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_32"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/tv_charge"
+                android:textSize="@dimen/font_12" />
+
+            <TextView
+                android:id="@+id/tv_charge_Apply"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@color/beige"
+                android:textSize="@dimen/font_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_32"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/tv_halve_case"
+                android:textSize="@dimen/font_12" />
+            <TextView
+                android:id="@+id/tv_halve_Apply"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@color/beige"
+                android:textSize="@dimen/font_12" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

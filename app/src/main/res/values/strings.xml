@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">办案助手系统</string>
+    <string name="main_botton_1">首页</string>
+    <string name="main_botton_2">设置</string>
+    <string name="main_botton_3">帮助</string>
+    <string name="main_botton_4">更新</string>
+    <string name="quick_check">快速资料检索</string>
+    <string name="kl_check">知识索引检索</string>
+    <string name="practice_skill">实务技能手册</string>
+    <string name="practice_tool">实务辅助工具</string>
+    <string name="normal_convert">常规换算</string>
+    <string name="workday_convert">工作日换算</string>
+    <string name="startdate">开始日期：</string>
+    <string name="enddate">结束日期：</string>
+    <string name="space_date">时间间隔天数(天)：</string>
+    <string name="month_num">月数：</string>
+    <string name="day_num">天数：</string>
+    <!--公告开庭-->
+    <string name="aty_startlawTime">公告开庭日期计算工具</string>
+    <string name="start_lawtime">公告开庭日期计算：</string>
+    <string name="notice_date">公告日期：</string>
+    <string name="notice_time">公告时间（天）：</string>
+    <string name="proof_day">举证时间（天）：</string>
+    <string name="to">至</string>
+    <string name="notice_period">公告期间：</string>
+    <string name="reply_day">答辩时间（天）：</string>
+    <string name="reply_deadline">答辩期限：</string>
+    <string name="about_out">涉外</string>
+    <string name="lawful_day">开庭日期：</string>
+    <string name="proof_deadline">举证期限：</string>
+
+    <string name="Aty_Perilod">期间计算</string>
+    <string name="Aty_Date">日期计算</string>
+    <string name="Aty_litigation">诉讼费计算工具</string>
+    <string name="rdoBtn_CaseTool">案件受理费用计算</string>
+    <string name="rdoBtn_Apply">申请费计算</string>
+    <string name="tv_Case_Type">案件类型:</string>
+    <string name="tv_pay_type">诉讼金额（元）:</string>
+    <string name="tv_charge">收费金额:</string>
+    <string name="tv_halve_case">减半金额（元）:</string>
+    <string name="tv_Case_type">案件子类型:</string>
+    <string name="_60">60</string>
+    <string name="_30">30</string>
+    <string name="_15">15</string>
+    <string name="seeto_notice_day">视为公告送达日：</string>
+
+    <string-array name="Case_Type">
+        <item>财产案件</item>
+        <item>非财产案件</item>
+        <item>知识产权民事案件</item>
+        <item>劳动争议案件</item>
+        <item>行政案件</item>
+    </string-array>
+    <string-array name="Lllegal_Case">
+        <item>离婚案件（涉及财产纠纷）</item>
+        <item>离婚案件（不涉及财产纠纷）</item>
+        <item>侵害人格权（涉及损害赔偿）</item>
+        <item>侵害人格权（不涉及损害赔偿）</item>
+        <item>其它非财产案件</item>
+    </string-array>
+    <string-array name="implement_fee_Type">
+        <item>执行申请费</item>
+        <item>评论保金申请费</item>
+        <item>申请支付令</item>
+        <item>申请公式催告</item>
+        <item>撤销仲裁裁决或认定协议效力</item>
+        <item>破产案例</item>
+    </string-array>
+
+    <string-array name="Knowledge_Case">
+        <item>没有争议金额或者价额</item>
+        <item>有争议金额或者价额</item>
+    </string-array>
+    <string-array name="Politics_Case">
+        <item>商标、专利、海事行政案件</item>
+        <item>其他行政案件</item>
+    </string-array>
+
+</resources>
